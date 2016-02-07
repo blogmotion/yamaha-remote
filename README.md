@@ -10,7 +10,7 @@ Script composé d'un unique fichier **yamaha-remote.sh** qui permet :
 - d'allumer l'amplificateur
 - d'éteindre l'amplificateur
 
-##Configuration minimale###
+###Configuration minimale###
 - interpréteur bash
 
 ###Utilisation###
