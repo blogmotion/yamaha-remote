@@ -23,7 +23,7 @@ elif [[ $# -eq 1  && $1 == "OFF" ]]; then
         ORDRE+=$POWER_OFF
         echo "OFF"
 else
-        echo -e "Usage :  `basename $0` <On>|<Standby>" && exit 0
+        echo -e "Usage :  `basename $0` <ON>|<OFF>" && exit 0
 fi
 
 curl -v -H "Content-Type: text/xml" -X POST -d "${ORDRE}" http://${IP}/${URL}
